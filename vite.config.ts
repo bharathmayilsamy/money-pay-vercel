@@ -7,7 +7,7 @@ import path from "path";
 // Copy this file to vite.config.ts before deploying.
 
 export default defineConfig({
-  base: "/",
+ 
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
